@@ -1,5 +1,5 @@
 [project]
-name = "catm-recoil-analysis"
+name = "trip2026-samidare"
 version = "0.1.0"
 description = "TRIP 2026 uv based python analysis environment"
 requires-python = ">=3.13"
