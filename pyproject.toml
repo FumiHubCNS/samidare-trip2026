@@ -1,0 +1,23 @@
+[project]
+name = "catm-recoil-analysis"
+version = "0.1.0"
+description = "TRIP 2026 uv based python analysis environment"
+requires-python = ">=3.13"
+
+dependencies = [
+    "samidare-lib",
+    "marimo>=0.17.6",
+]
+
+[dependency-groups]
+dev = [
+    "python-lsp-server[all]",
+]
+
+[tool.uv.sources]
+samidare-lib = {
+    git = "https://github.com/FumiHubCNS/samidare-lib.git"
+}
+
+[tool.marimo.runtime]
+output_max_bytes = 100_000_000
